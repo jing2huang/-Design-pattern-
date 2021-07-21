@@ -1,0 +1,27 @@
+/.metadata/
+
+# Compiled class file
+*.class
+*.classpath
+*.factorypath
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+# IDE Files #
+.project
+.settings
+target
+
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
