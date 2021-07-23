@@ -4,9 +4,12 @@ public class DecoratorTest {
 
 	public static void main(String[] args) {
 		Data data = new AppData();
-		TCPDataDecorator tcp = new TCPDataDecorator(data);
-		tcp.send();
+		System.out.println("=======FIRST==========");
 		UDPDataDecorator udp = new UDPDataDecorator(data);
 		udp.send();
+		System.out.println("=======SECOND==========");
+		IPDataDecorator ip = new IPDataDecorator(data);
+		TCPDataDecorator tcp = new TCPDataDecorator(ip);
+		tcp.send();
 	}
 }
