@@ -1,6 +1,6 @@
 package com.j2h.factory_method;
 
-public class HWPhone implements Product {
+public class HWPhone implements Phone {
 
 	@Override
 	public void sendMsg() {

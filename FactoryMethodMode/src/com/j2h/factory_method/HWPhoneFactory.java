@@ -4,7 +4,7 @@ package com.j2h.factory_method;
 public class HWPhoneFactory implements Factory {
 
 		@Override
-		public Product newProduct() {
+		public Phone newProduct() {
 			return new HWPhone();
 		}
 

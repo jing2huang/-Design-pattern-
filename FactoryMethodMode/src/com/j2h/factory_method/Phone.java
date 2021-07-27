@@ -1,6 +1,6 @@
 package com.j2h.factory_method;
 
-public interface Product {
+public interface Phone {
 
 	public void sendMsg();
 	public void call();
