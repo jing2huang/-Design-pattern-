@@ -25,3 +25,7 @@ target
 *.diff
 *.patch
 *.tmp
+
+# idea
+.idea
+*.iml
